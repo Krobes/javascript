@@ -6,10 +6,10 @@ let trabajador = {
     dni: "26262368W",
     // Una de las propiedades debe ser un array con varias propiedades
     vehiculo: {
-        "marca": "Seat",
-        "modelo": "León",
-        "motor": "Gasolina",
-        "kilometraje": 100000
+        marca: "Seat",
+        modelo: "León",
+        motor: "Gasolina",
+        kilometraje: 100000
     },
     // Otras dos de las propiedades debe contener otros objetos literales.
     superiores: [{
@@ -43,6 +43,6 @@ let trabajador = {
     console.log(claves);
 
 
-    /*2.	Una función que devuelva todos los valores del objeto. ¿Qué tipo de objeto devuelve? */
-    let valores = Object.values(trabajador); //Devuelve un array con todos los valores.
+    /*2. Una función que devuelva todos los valores del objeto. ¿Qué tipo de objeto devuelve? */
+    let valores = Object.values(trabajador); //Devuelve un Array con todos los valores.
     console.log(valores);
