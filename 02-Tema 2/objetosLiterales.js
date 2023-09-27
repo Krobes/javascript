@@ -5,26 +5,15 @@ let trabajador = {
     edad: 34,
     dni: "26262368W",
     // Una de las propiedades debe ser un array con varias propiedades
-    vehiculo: {
-        marca: "Seat",
-        modelo: "León",
-        motor: "Gasolina",
-        kilometraje: 100000
-    },
+    matVehiculo: ["345678Y", "456789T", "678292F"],
     // Otras dos de las propiedades debe contener otros objetos literales.
-    superiores: [{
+    superiorDepartamento: {
         nombre: "Paula",
         apellidos: "González Marcos",
         departamento: "Desarrollo e innovación",
         id: 101010
     },
-    {
-        nombre: "Pedro",
-        apellidos: "Juárez López",
-        departamento: "Gerencia",
-        id: 101011
-    }],
-
+    
     departamentosAsociados: [{
         id: 1,
         nombre: "Desarrollo e innovación",
