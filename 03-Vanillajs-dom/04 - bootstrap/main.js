@@ -13,10 +13,10 @@ a.classList.add("list-group-item", "list-group-item-action");
 
 const palabras = ["default", "primary", "secondary", "success", "danger", "warning", "info", "light", "dark"];
 
-for(let index = 0; index <= 8; index++){
+palabras.forEach((palabra, index) => {
     clon = a.cloneNode();
     div.append(clon);
     if(index != 0)
-        clon.classList.add("list-group-item-" + palabras[index]);
-    clon.textContent = "A simple " + palabras[index] + " list group item";
-}
+        clon.classList.add("list-group-item-" + palabra);
+    clon.textContent = "A simple " + palabra + " list group item";
+});
