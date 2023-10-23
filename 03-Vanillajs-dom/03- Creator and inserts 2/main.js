@@ -52,6 +52,8 @@ const input4 = document.createElement("input");
 input4.type="submit";
 input4.value="Submit";
 
+
+//Mejor usar append
 body.append(div);
 div.appendChild(h1);
 div.appendChild(br);
@@ -65,11 +67,11 @@ form.appendChild(br.cloneNode());
 form.appendChild(label2);
 form.appendChild(input2);
 form.appendChild(br.cloneNode());
-form.appendChild(br2.cloneNode());
+form.appendChild(br.cloneNode());
 form.appendChild(label3);
 form.appendChild(input3);
 form.appendChild(br.cloneNode());
-form.appendChild(br2.cloneNode());
+form.appendChild(br.cloneNode());
 form.appendChild(input4);
 
 
