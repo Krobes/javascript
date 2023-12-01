@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#menuFilter {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  margin-right: 10px;
+}
+
+p {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.coches {
+  margin: 15px;
+}

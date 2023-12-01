@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  position: absolute;
+  top: 33%;
+  left: 39%;
+  text-align: center;
+}
+
+p {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.coches {
+  margin: 15px;
+}
